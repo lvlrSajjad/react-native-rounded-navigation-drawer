@@ -1,6 +1,7 @@
 
 # react-native-rounded-navigation-drawer [![npm version](https://img.shields.io/npm/v/react-native-rounded-navigation-drawer.svg)](https://www.npmjs.com/package/react-native-rounded-navigation-drawer)
 <img src="https://raw.githubusercontent.com/lvlrSajjad/react-native-rounded-navigation-drawer/master/img.gif">
+
 ## Getting started
 
 `$ npm install react-native-rounded-navigation-drawer --save`
