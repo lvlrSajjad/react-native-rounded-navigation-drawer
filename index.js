@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#FFFFFFcc',
-        zIndex: 999
+        zIndex: 1099
     },
     listContainer: {
         position: 'absolute',
