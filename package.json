@@ -7,11 +7,31 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": {
+    "name": "Sajjad Asadi",
+    "email": "lvlr.xaus@gmail.com"
+  },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-native-navigation-drawer",
+	"navigation-drawer",
+	"navigation drawer",
+	"react native navigation drawer",
+	"react-native-rounded-navigation-drawer",
+	"react-native-round-navigation-drawer",
+	"react-native-rounded",
+	"react-native-round",
+	"drawer"
   ],
-  "author": "",
-  "license": "",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "lvlrsajjad",
+      "email": "lvlr.xaus@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/lvlrSajjad/react-native-rounded-navigation-drawer",
+
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
