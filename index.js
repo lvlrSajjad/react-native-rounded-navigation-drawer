@@ -144,12 +144,14 @@ export function openNv() {
                 {
                     toValue: 0,
                     duration: 500,
+                    useNativeDriver: true
                 }),
             Animated.timing(
                 this.state.fadeIn,
                 {
                     toValue: 1,
                     duration: 500,
+                    useNativeDriver: true
                 }
             ),
             Animated.timing(
@@ -157,6 +159,7 @@ export function openNv() {
                 {
                     toValue: 0,
                     duration: 500,
+                    useNativeDriver: true
                 }
             ),
             Animated.timing(
@@ -164,6 +167,7 @@ export function openNv() {
                 {
                     toValue: 0,
                     duration: 500,
+                    useNativeDriver: true
                 }
             )
         ]).start();
@@ -178,12 +182,14 @@ export function closeNv() {
             {
                 toValue: 100,
                 duration: 500,
+                useNativeDriver: true
             }),
         Animated.timing(
             this.state.fadeIn,
             {
                 toValue: 0,
                 duration: 500,
+                useNativeDriver: true
             }
         ),
         Animated.timing(
@@ -191,6 +197,7 @@ export function closeNv() {
             {
                 toValue: -100,
                 duration: 500,
+                useNativeDriver: true
             }
         ),
         Animated.timing(
@@ -198,6 +205,7 @@ export function closeNv() {
             {
                 toValue: -150,
                 duration: 500,
+                useNativeDriver: true
             }
         )
     ]).start(()=>this.setState({open: false}));
